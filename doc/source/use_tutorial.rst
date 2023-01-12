@@ -12,7 +12,7 @@ constants directly available to python users.
 
 To use the constants, first open python and import the package:
 
-    >>> from gsl_consts.consts import *
+    >>> from gslconsts.consts import *
 
 Now use the constants, as defined by GSL, directly.  For example, you may
 type:

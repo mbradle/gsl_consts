@@ -3,5 +3,5 @@ Documentation
 
 .. toctree::
 
-   gsl_consts
+   gslconsts
 
