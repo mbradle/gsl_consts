@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 base_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), "../..")
 
 about = {}
-with open(os.path.join(base_dir, "__about__.py")) as f:
+with open(os.path.join(base_dir, "gsl_consts", "__about__.py")) as f:
     exec(f.read(), about)
 
 

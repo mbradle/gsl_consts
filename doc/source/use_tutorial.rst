@@ -3,7 +3,7 @@
 Use the package
 ===============
 
-The `Gnu Scientific Library <https://www.gnu.org/software/gsl/>`_
+The `GNU Scientific Library <https://www.gnu.org/software/gsl/>`_
 (GSL) is a numerical library for C and C++ programmers.  Included in the library
 are a number of
 `physical constants <https://www.gnu.org/software/gsl/doc/html/const.html>`_.
@@ -12,7 +12,7 @@ constants directly available to python users.
 
 To use the constants, first open python and import the package:
 
-    >>> from gsl_consts import *
+    >>> from gsl_consts.consts import *
 
 Now use the constants, as defined by GSL, directly.  For example, you may
 type:
@@ -29,7 +29,9 @@ and thus can be used directly in calculations.  For example, type:
 
     >>> r_mars_au = 1.52
     >>> r_mars_meters = r_mars_au * GSL_CONST_MKSA_ASTRONOMICAL_UNIT
-    >>> print("The distance from the Sun to Mars is", r_mars_meters, "meters")
+    >>> print("The distance from the Sun to Mars is {:.2e} meters".format(r_mars_meters))
+    >>> mars_light_travel_time = r_mars_meters / GSL_CONST_MKSA_SPEED_OF_LIGHT
+    >>> print("The light travel time from the Sun to Mars is {:.2f} hours".format(mars_light_travel_time / GSL_CONST_MKSA_HOUR))
 
 Constants in
 `CGSM <https://en.wikipedia.org/wiki/Centimetre–gram–second_system_of_units>`_

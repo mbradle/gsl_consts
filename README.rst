@@ -3,7 +3,7 @@ Overview
 
 It may be convenient for python users to have available physical
 constants from the
-`Gnu Scientific Library <https://www.gnu.org/software/gsl/>`_
+`GNU Scientific Library <https://www.gnu.org/software/gsl/>`_
 without installing GSL itself.  This package makes those constants
 available directly.
 
