@@ -15,6 +15,12 @@ typing in your favorite terminal::
 
     $ pip install gsl_consts
 
+Usage
+-----
+
+To learn how to use the package, follow the
+`tutorials <http://gsl_consts.readthedocs.io/en/latest/tutorials.html>`_.
+
 Authors
 -------
 
