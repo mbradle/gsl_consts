@@ -1,10 +1,10 @@
-.. gsl_consts documentation master file, created by
+.. gslconsts documentation master file, created by
    sphinx-quickstart on Thu May 10 10:29:49 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to gsl_const's documentation!
-=====================================
+Welcome to gslconst's documentation!
+====================================
 
 Contents
 --------

@@ -1,6 +1,6 @@
 __all__ = ["__title__", "__summary__", "__version__", "__author__", "__copyright__"]
 
-__title__ = "gsl_consts"
+__title__ = "gslconsts"
 __summary__ = "Python project GNU Scientific Library (GSL) constants"
 __version__ = "1.0.0"
 __author__ = "Clemson University"
