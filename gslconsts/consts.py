@@ -1,4 +1,4 @@
-"""This module is generated with the script available at `OSF <https://osf.io/yg23d/>`_. The constants are defined at the GSL `Physical Constants <https://www.gnu.org/software/gsl/doc/html/const.html>`_ page.
+"""This file was generated automatically.
 
 .. code-block:: python
 
