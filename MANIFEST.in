@@ -7,5 +7,6 @@ include LICENSE.txt
 # Include the data files
 #recursive-include data *
 
-# Exclude make_consts.py from the build
+# Exclude make_consts.py and make_math.py from the build
 exclude gslconsts/make_consts.py
+exclude gslconsts/make_math.py
