@@ -14,4 +14,12 @@ gslconsts.consts
    :undoc-members:
    :show-inheritance:
 
+gslconsts.math
+--------------
+
+.. automodule:: gslconsts.math
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 

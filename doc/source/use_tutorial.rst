@@ -40,3 +40,12 @@ are also available: just replace the *MKSA* with *CGSM*.  For example, type:
 
    >>> print(GSL_CONST_CGSM_SPEED_OF_LIGHT)
 
+Math constants are also available.  To use, import them:
+
+    >>> from gslconsts.math import *
+
+They are indicated by the prefix *M_*.  For example, one can print:
+
+    >>> print("Pi =", M_PI)
+    >>> print("Euler-Mascheroni constant =", M_EULER)
+
