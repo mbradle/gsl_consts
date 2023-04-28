@@ -6,7 +6,9 @@ Use the package
 The `GNU Scientific Library <https://www.gnu.org/software/gsl/>`_
 (GSL) is a numerical library for C and C++ programmers.  Included in the library
 are a number of
-`physical constants <https://www.gnu.org/software/gsl/doc/html/const.html>`_.
+`physical constants <https://www.gnu.org/software/gsl/doc/html/const.html>`_
+and
+`mathematical constants <https://www.gnu.org/software/gsl/doc/html/math.html>`_.
 The current package makes those
 constants directly available to python users.
 
